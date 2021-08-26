@@ -18,6 +18,15 @@ class App extends Component {
       ],
     });
   };
+  switchHandler = (newName) => {
+    this.setState({
+      datatags: [
+        { name: newName, num: 3 },
+        { name: "Philip", num: 21 },
+        { name: "Denis", num: 17 },
+      ],
+    });
+  };
   newChangeHandler = (event) => {
     this.setState({
       datatags: [
