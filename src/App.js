@@ -32,7 +32,7 @@ class App extends Component {
       <div>
         <div className="App headder">
           <h1 className="banner"> Today is all about React</h1>
-          <button onClick={this.switchHandler()} className="button">
+          <button onClick={this.switchHandler} className="button">
             Switch Button
           </button>
           <Person
