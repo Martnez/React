@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
-import component from "./components/navbar"
+import component from "./components/navbar";
+import component from "./components/footer";
 import Person from "./Persons/Persons";
 class App extends Component {
   state = {
