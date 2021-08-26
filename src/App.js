@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import "./App.css";
-import component from "./components/navbar";
-import component from "./components/footer";
 import Person from "./Persons/Persons";
 class App extends Component {
   state = {
@@ -10,6 +8,15 @@ class App extends Component {
       { name: "Philip", num: 21 },
       { name: "Denis", num: 17 },
     ],
+  };
+  switchHandler = (newName) => {
+    this.setState({
+      datatags: [
+        { name: newName, num: 3 },
+        { name: "Philip", num: 21 },
+        { name: "Denis", num: 17 },
+      ],
+    });
   };
   switchHandler = (newName) => {
     this.setState({
