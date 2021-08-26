@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navi{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(166, 166, 231);
+}
+/* .container{
+  display: flex;
+  height: 100vh;
+  background-color: rgb(175, 175, 187);
+  margin-left: 0; 
+  flex-direction: column;
+}
+.flex-item1{
+  
+  background-color: rgb(216, 228, 230);
+  min-height: 20%;
+  margin-bottom: 10px;
+  border: 1px solid #eee;
+  box-shadow: 0 2px  3px #ccc;
+  padding: 16px;
+  text-align: center;
+}
+.flex-item2{
+  background-color: burlywood;
+  min-height: 60%;
+  margin-bottom: 10px;
+}
+.flex-item3{
+  background-color: burlywood;
+  min-height: 15%;
+} */
